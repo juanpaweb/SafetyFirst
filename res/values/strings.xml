@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Safety First</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Logout</string>
+
+    <!-- activity_available.xml -->
+    <string name="safetyFirst">Safety First</string>
+    <string name="utaID">UTA ID</string>
+    <string name="userName">User Name</string>
+    <string name="password">Password</string>
+    <string name="forgotPassword">Forgot Password</string>
+    <string name="signUp">Sign Up</string>
+    <string name="login">Login</string>
+
+    <color name="black">#000000</color>
+
+    <!-- activity_home.xml -->
+    <string name="title_activity_home">Safety First</string>
+    <string name="pickMe">Pick Me</string>
+    <string name="sos">SOS</string>
+    <string name="mavAlerts">MavAlerts</string>
+
+    <!-- activity_sign_up.xml -->
+    <string name="title_activity_sign_up">Register</string>
+    <string name="firstName">First Name</string>
+    <string name="lastName">Last Name</string>
+    <string name="signUpPassword">Password</string>
+    <string name="utaEmailId">UTA Email ID</string>
+    <string name="register">Register</string>
+
+    <!-- activity_forgot_password.xml -->
+    <string name="title_activity_forgot_password">ForgotPasswordActivity</string>
+    <string name="enterRegisteredId">Enter Registered Id</string>
+    <string name="resendPassword">Resend Password</string>
+
+    <!-- activity_tab_action_bar.xml and it's related tab fragments -->
+    <string name="title_activity_trial">Safety First</string>
+    <string name="title_sos">SOS</string>
+    <string name="title_pickMe">Pick Me</string>
+    <string name="title_mavAlerts">Mav Alerts</string>
+    <string name="textMedian">text Median</string>
+    <string name="title_activity_details_of_notification">Notification Details</string>
+    <string name="title_activity_contact">ContactActivity</string>
+    <string name="title_activity_ride_confirmation">RideConfirmation</string>
+    <string name="title_activity_ride_confimation_for_police">RideConfimationForPolice</string>
+    <string name="title_activity_police_home">PoliceHomeActivity</string>
+
+</resources>

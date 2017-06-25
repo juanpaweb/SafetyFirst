@@ -1,0 +1,84 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.safetyfirst.DetailsOfNotificationActivity" >
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="false"
+        android:layout_alignParentRight="false"
+        android:layout_alignParentTop="false"
+        android:alpha="0.70"
+        android:scaleType="centerCrop"
+        android:src="@drawable/planet" />
+
+    <TextView
+        android:id="@+id/textDetailsSubjectHeader"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="Mav-Alert Subject"
+        android:textStyle="bold"
+        android:textSize="24dp" />
+
+    <TextView
+        android:id="@+id/textDetailsSubject"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textDetailsSubjectHeader"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:text="Subject Details"
+        android:textStyle="bold"
+        android:textSize="24dp" />
+
+    <TextView
+        android:id="@+id/textDetailsTimeStampHeader"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textDetailsSubject"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:text="Incident Time"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textSize="24dp" />
+
+    <TextView
+        android:id="@+id/textDetailsTimeStamp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textDetailsTimeStampHeader"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:text="Time Stamp Details"
+        android:textStyle="bold"
+        android:textSize="24dp" />
+
+    <TextView
+        android:id="@+id/textDetailsBodyHeader"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textDetailsTimeStamp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:text="Mav-Alert Details"
+        android:textStyle="bold" 
+        android:textSize="24dp"/>
+
+    <TextView
+        android:id="@+id/textDetailsBody"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textDetailsBodyHeader"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:text="Details Body Details"
+        android:textStyle="bold"
+        android:textSize="24dp" />
+
+</RelativeLayout>

@@ -1,0 +1,66 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.safetyfirst.ContactActivity" >
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="false"
+        android:layout_alignParentRight="false"
+        android:layout_alignParentTop="false"
+        android:alpha="0.90"
+        android:scaleType="centerCrop"
+        android:src="@drawable/planet" />
+
+    <Button
+        android:id="@+id/buttonAutoSelect"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/buttonSave"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="56dp"
+        android:layout_marginLeft="74dp"
+        android:text="Select from Contacts"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/editTextPN"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/buttonAutoSelect"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="46dp"
+        android:background="@color/white"
+        android:ems="10"
+        android:hint="Phone Number"
+        android:textStyle="bold" >
+
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/editTextName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/editTextPN"
+        android:layout_alignLeft="@+id/editTextPN"
+        android:layout_marginBottom="51dp"
+        android:background="@color/white"
+        android:ems="10"
+        android:hint="Name"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/buttonSave"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="114dp"
+        android:text="Save"
+        android:textStyle="bold" />
+
+</RelativeLayout>
